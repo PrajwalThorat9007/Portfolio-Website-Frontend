@@ -45,3 +45,23 @@ body {
     text-align:center;
     padding:10px;
 }
+
+/* GALLERY */
+.gallery {
+    display: flex;           /* FLEXBOX */
+    flex-wrap: wrap;         /* move to next row */
+    gap: 15px;
+    justify-content: center;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* HOVER EFFECT 🔥 */
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.5);
+}
