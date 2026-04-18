@@ -1,0 +1,54 @@
+@media (max-width: 768px) {
+    
+    .container {
+        flex-direction: column;   /* vertical layout */
+    }
+
+    .sidebar,
+    .content {
+        width: 100%;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .gallery img {
+        width: 45%;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .gallery img {
+        width: 100%;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .card {
+        width: 100%;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .media {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
